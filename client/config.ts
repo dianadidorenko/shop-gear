@@ -6,7 +6,7 @@ const checkConfig = (server: string): Config | {} => {
   let config: Config | {} = {};
   switch (server) {
     case "production":
-      config = { baseUrl: "" };
+      config = { baseUrl: "https://shop-gear.vercel.app" };
       break;
     case "local":
       config = {
