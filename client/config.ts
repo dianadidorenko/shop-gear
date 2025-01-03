@@ -15,6 +15,7 @@ const checkConfig = (server: string): Config | {} => {
       break;
     default:
       break;
+    
   }
   return config;
 };
